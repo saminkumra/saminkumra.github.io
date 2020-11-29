@@ -175,9 +175,10 @@ a{
 .name p {
 	text-align: center;
     font-family: helvetica;
-    font-size: 20;
+    font-size: 15pt;
     text-shadow: 1px 1px white;
 	width: 60%;
+	height: 10%;
 	margin-left: 21%;
 	line-height: 1.5;
 }

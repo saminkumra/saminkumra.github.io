@@ -91,9 +91,10 @@ a{
 .description p {
 	text-align: center;
     font-family: helvetica;
-    font-size: 20;
+    font-size: 15pt;
     text-shadow: 1px 1px white;
 	width: 90%;
+	height: 10%;
 	margin-left: 5%;
 	line-height: 1.5;
 }
