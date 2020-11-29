@@ -1,0 +1,389 @@
+.backdrop {
+	background-image: url("images/background3.jpg");
+	background-size: cover;
+
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: space-between;
+}
+
+a{
+	text-decoration: none;
+}
+
+.top-nav {
+	background-color: #00331C;
+  	text-align: center;
+ 	border: 2px solid rgba(111,41,97,.5);
+
+}
+.top-nav a {
+	color: white;
+	text-decoration: none;
+}
+
+.top-nav ul {
+  list-style: none;
+  padding: 0;
+  color: white;
+
+}
+
+.top-nav li {
+  font-family: helvetica;
+  font-weight: bold;
+  display: inline-block;
+  width: 100px;
+  //padding: 5px;
+  user-select: none;
+}
+
+.top-nav li:hover{
+  text-decoration: underline;
+}
+
+.top-nav li:active {
+  color: #fff;
+}
+
+.top-nav .pulldown-menu{
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #333;
+  border-radius: 4px;
+}
+.top-nav .pulldown-menu li{
+  color: #333;
+  display: block;
+
+}
+
+.top-nav li:hover .pulldown-menu{
+  display: block;
+}
+.active-page {
+	padding: 18px;
+	background-color: purple;
+	//padding-top: px;
+	//padding-bottom: 5px;
+}
+
+.bio {
+	height: 60%;
+    width: 80%;
+    border: 20px solid #00331C;
+    margin-left: 9%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.description {
+    vertical-align: top;
+    display: inline-block;
+    width: 38%;
+    //border: 2px solid black;
+    height: 100%
+
+}
+
+.photo {
+    display: inline-block;
+    width: 28%;
+    height: 100%;
+
+}
+.photo img{
+    height: 100%;
+    margin-top: 10%;
+}
+
+.social {
+    vertical-align: top;
+    display: inline-block;
+    width: 7%;
+    height: 100%;
+	background-color: #00331C;
+}
+.social img {
+	width: 60%;
+	margin-top: 65%;
+	margin-bottom: 65%;
+	margin-left: 20%;
+
+}
+
+.name {
+	vertical-align: top;
+	display: inline-block;
+	width: 62%;
+	height: 100%;
+}
+
+
+.projects {
+	margin-top: 8%;
+	display: flex;
+	justify-content: space-around;
+	background-color: #ccff99;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	margin-left: 3%;
+}
+
+#fantasy-button {
+	display: inline-block;
+	border: 2px solid black;
+	width: 140px;
+	height: 140px;
+
+}
+
+
+#scrabble-button {
+	display: inline-block;
+	border: 2px solid black;
+	width: 140px;
+	height: 140px;
+}
+
+#led-button {
+	display: inline-block;
+	border: 2px solid black;
+	width: 140px;
+	height: 140px;
+}
+
+#social-button {
+	display: inline-block;
+	border: 2px solid black;
+	width: 140px;
+	height: 140px;
+}
+
+.name h2, h3{
+    text-align: center;
+    font-family: helvetica;
+    font-size: 40;
+    text-shadow: 2px 2px white;
+}
+
+.name p {
+	text-align: center;
+    font-family: helvetica;
+    font-size: 20;
+    text-shadow: 1px 1px white;
+	width: 60%;
+	margin-left: 21%;
+	line-height: 1.5;
+}
+
+.bar-container {
+    width: 95%;
+    background-color: #ccff99;
+    margin-left: 3%;
+    border: 1px solid black;
+}
+
+
+.fantasy img{
+	margin-left: -4%;
+	width: 107%;
+	height: 100%;
+}
+
+.fantasy-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 300%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.fantasy-modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+.fantasy-modal-content img {
+	width: 50%;
+	margin-left: 25%;
+}
+
+/* The Close Button */
+.close1 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close1:hover, .close1:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.scrabble img{
+	margin-left: -4%;
+	width: 107%;
+	height: 100%;
+}
+
+.scrabble-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 300%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.scrabble-modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+.scrabble-modal-content img {
+	width: 35%;
+	margin-left: 32%;
+}
+
+.close2 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover, .close2:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.led img{
+	margin-left: -4%;
+	width: 107%;
+	height: 100%;
+}
+
+.led-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 300%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.led-modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+
+
+/* The Close Button */
+.close3 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close3:hover, .close3:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.led-slide {
+	width: 480;
+	height: 299;
+	margin-left: 20%;
+}
+
+
+.social-entrepreneurship img{
+	margin-left: -4%;
+	width: 107%;
+	height: 100%;
+}
+
+.social-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 300%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.social-modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+
+
+/* The Close Button */
+.close4 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close4:hover, .close4:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.social-video {
+	width: 480;
+	height: 299;
+	margin-left: 20%;
+}

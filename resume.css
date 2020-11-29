@@ -1,0 +1,67 @@
+.backdrop {
+	background: url("images/background3.jpg");
+    background-repeat: repeat;
+	background-size: cover;
+}
+
+a{
+	text-decoration: none;
+}
+
+.top-nav {
+	background-color: #00331C;
+  	text-align: center;
+ 	border: 2px solid rgba(111,41,97,.5);
+
+}
+.top-nav a {
+	color: white;
+	text-decoration: none;
+}
+
+.top-nav ul {
+  list-style: none;
+  padding: 0;
+  color: white;
+
+}
+
+.top-nav li {
+  font-family: helvetica;
+  font-weight: bold;
+  display: inline-block;
+  width: 100px;
+  //padding: 5px;
+  user-select: none;
+}
+
+.top-nav li:hover{
+  text-decoration: underline;
+}
+
+.top-nav li:active {
+  color: #fff;
+}
+
+.top-nav .pulldown-menu{
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #333;
+  border-radius: 4px;
+}
+.top-nav .pulldown-menu li{
+  color: #333;
+  display: block;
+
+}
+.top-nav li:hover .pulldown-menu{
+  display: block;
+}
+
+
+.resume {
+    align-items:center;
+    margin-left: 10%;
+    margin-top: 5%;
+}

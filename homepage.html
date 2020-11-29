@@ -1,0 +1,143 @@
+<html>
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" type="text/css" href="portfolio2.css"/>
+
+    </head>
+    <body>
+        <div class="backdrop">
+            <div class="container">
+                <div class="top-nav">
+                  <ul>
+                    <li><a href="homepage.html" class="active-page">Home</a></li>
+                    <li><a href="bio.html">Bio</a></li>
+                    <li><a href="resume.pdf" target="_blank">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </div>
+
+                <div class="bio">
+                    <div class="photo">
+                        <img src="images/samin_kumra2.png" alt="photo of Samin Kumra"/>
+                    </div>
+                    <div class="social">
+                        <div class="linkedin">
+                            <a href="https://www.linkedin.com/in/saminkumra/" target="_blank">
+                                <img src="images/linkedin.png" alt="linkedin logo"/>
+                            </a>
+                        </div>
+                        <div class="github">
+                            <a href="https://github.com/saminkumra" target="_blank">
+                                <img src="images/github.png" alt="github logo"/>
+                            </a>
+                        </div>
+                        <div class="linkedin">
+                            <a href="https://www.facebook.com/samin.kumra/" target="_blank">
+                                <img src="images/facebook.png" alt="facebook logo"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="name">
+                        <h2>Samin Kumra</h2>
+                        <p>Hey, I am a Chicago based software developer and student at Northwestern University!
+                            I love working on new projects whether its using Machine Learning, Full stack, or even
+                             making short films. Check out some of my projects below.<p>
+                        <div class="projects">
+                                <button id="fantasy-button" class="fantasy-button">
+                                    <div class="fantasy">
+                                        <img src="images/fantasy.png" alt="Fantasy Premier League" class="fantasy-image">
+                                    </div>
+                                </button>
+                                <!-- The Modal -->
+                                <div id="fantasy-modal" class="fantasy-modal">
+
+                                  <!-- Modal content -->
+                                    <div class="fantasy-modal-content">
+                                        <span class="close1">&times;</span>
+                                        <h3>ML model to predict the best team for Fantasy Premier League.</h3><br>
+                                        <img src="images/plot.png" alt="plot showing the predicted values against different opponents" class="fantasy-image">
+                                        <p>This project uses several machine learning models
+                                            such as Linear and polynomial regression, K- Nearest neighbors etc.
+                                            to fit to the training data.
+                                            It also uses a Knap-sack problem to implement an AI model
+                                            to predict the best team for the next set of matches.</p><br>
+                                        <a href="https://github.com/saminkumra/FantasyPremierLeague" target="_blank">
+                                            <p>Click here to learn more about this project</p>
+                                        </a>
+                                    </div>
+
+                                </div>
+
+                                <button id="scrabble-button">
+                                    <div class="scrabble">
+                                        <img src="images/test.jpeg" alt="Scrabble Game" class="scrabble-image">
+                                    </div>
+                                </button>
+                                <!-- The Modal -->
+                                <div id="scrabble-modal" class="scrabble-modal">
+
+                                  <!-- Modal content -->
+                                    <div class="scrabble-modal-content">
+                                        <span class="close2">&times;</span>
+
+                                        <h3>My own version of the board game Scrabble created using C++</h3><br>
+                                        <img src="images/board.png" alt="board of the game Scrabble">
+                                        <p>Using the library "ge211", we built a fully fucntional game of Scrabble
+                                        This game implements functions such as a custom random number generator,
+                                        as well several design related features including the board, tiles, and special bonus positions on the board</p><br>
+                                        <a href="https://github.com/sethdmay/eecs211-finalproject" target="_blank">
+                                            <p>Click here to learn more about this project</p>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <button id="led-button">
+                                    <div class="led">
+                                        <img src="images/led.png" alt="Solid state LED" class="led-image">
+                                    </div>
+                                </button>
+                                <!-- The Modal -->
+                                <div id="led-modal" class="led-modal">
+
+                                  <!-- Modal content -->
+                                    <div class="led-modal-content">
+                                        <span class="close3">&times;</span>
+
+                                        <h3>Solid State Lighting</h3><br>
+                                        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQqkZWAh_RAJUGKmpjXZm8foMdXXoAce34XmvM_B1HUE4xdhujC9YaIrNUpbFGJRML8Aoq1MI1wrMoC/embed?start=false&loop=false&delayms=3000" class="led-slide" frameborder="0"  allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                                        <p>In this project we worked on several aspects of Solid State Lighting
+                                        including exploring how an LED works, some of the current state of the art uses
+                                        as well as the challenges faced by when designing new LEDs</p><br>
+                                        <a href="https://docs.google.com/presentation/d/1ZH6L1fSBWSpk3gnfJk1OheGt9SCobTrivucII6q0X4Q/edit?usp=sharing" target="_blank">
+                                            <p>Click here to learn more about this project</p>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <button id="social-button">
+                                    <div class="social-entrepreneurship">
+                                        <img src="images/social.png" alt="Social entrepreneurship video thumbnail" class="social-image">
+                                    </div>
+                                </button>
+                                <!-- The Modal -->
+                                <div id="social-modal" class="social-modal">
+
+                                  <!-- Modal content -->
+                                    <div class="social-modal-content">
+                                        <span class="close4">&times;</span>
+
+                                        <h3>Social Entrepreneurship: ACT NOW</h3><br>
+                                        <iframe src="https://www.youtube.com/embed/GPxNENjDke0" class="social-video" frameborder="0"  allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                                        <p>In this short film we explored the idea of what it truly means to be a
+                                            social entrepreneur. We discussed the differences between those who simply
+                                            donate to society vs. those who actually better society through new and innovative ideas.<p><br>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </body>
+   <script src="homepage.js"></script>
+</html>
