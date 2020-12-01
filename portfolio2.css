@@ -7,7 +7,6 @@
 .container {
 	display: flex;
 	flex-direction: column;
-	height: 100%;
 	justify-content: space-between;
 }
 
@@ -74,7 +73,6 @@ a{
 }
 
 .bio {
-	height: 60%;
     width: 80%;
     border: 20px solid #00331C;
     margin-left: 9%;
@@ -96,17 +94,19 @@ a{
     width: 28%;
     height: 100%;
 
+
 }
 .photo img{
-    height: 100%;
+    height: 500px;
     margin-top: 10%;
+
 }
 
 .social {
     vertical-align: top;
     display: inline-block;
     width: 7%;
-    height: 100%;
+	height: 550px;
 	background-color: #00331C;
 }
 .social img {
